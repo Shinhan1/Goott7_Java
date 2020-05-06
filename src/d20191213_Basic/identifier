@@ -1,0 +1,18 @@
++ 식별자 (Identifier)
+	
+1) primitive type (원시 타입)
+ (정수형) : byte (8bit = 1byte), short (16bit = 2byte), int (32bit = 4byte), long (64bit~ = 8byte~)
+ (실수형) : 				       float (32bit = 4byte), double (64bit~ = 8byte~)
+ (문자형) : 					   char (2byte)
+ (논리형) : boolean (참, 거짓)
+
+2) reference type (참조 타입) : Class, Interface, Array,  ...
+
++ 저장 단위
+0 / 1 => 1bit
+8bit => 1byte(*1024) => 1kb(*1024) => 1MB(*1024) => 1TB(*1024) => 1PT ......
+
+
+
+
+

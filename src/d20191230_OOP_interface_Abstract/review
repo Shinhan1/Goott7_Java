@@ -1,0 +1,100 @@
+1.캡슐화
+
+	클래스 안에 정보를 은닉하여 사용자 외에 다른 비인가자로부터 접근을 방지하는 것
+
+
+
+3.	메소드 오버로딩 : 다양한 입력 형식을 받기위해서 기본생성자를 매개변수를 통해 재정의 하는 것
+
+	메소드 오버라이딩 : 부모로부터 물려받은 자식클래스가 자신의 환경에 맞게 바꾸어 사용하는것 (다형성)
+	
+4.	this, this()
+	super, super()
+	
+5.	상속이란
+
+6.	method를 호출하는 방법 3가지와 예를들어 설명하기
+
+7.	다음의 코드를 보고 Animal 클래스의 생성자를
+   작성하고 , setter , getter를 추가하시오
+  public class Hw7{
+    public static void main(String[] args){
+        Animal a1 = new Animal("원숭이",26);
+        a1.show();
+    }
+}
+
+class Animal{
+    String name;
+    int age;
+    public void show(){
+        System.out.println( name + "님은 " + age + "살 입니다");
+    }
+
+  }
+
+
+}
+
+8. 
+    public class Hw8{
+        public static void main(String[] args){
+            // 3 일때 3개 출력 , 5일때는 5개 출력
+            Lotto lt = new Lotto(3);
+            lt.select();
+            lt.print();
+        }   
+    }
+
+    출력 결과 ----------------------------------
+
+    [  2 ,   5,   3 ,   11 ,   35,    39 ]
+    [  7 ,   15,   23 ,   31 ,   40,    41 ]
+    [  5 ,   11,   12 ,   36 ,   37,    44 ]
+
+
+9.	사용자로부터 금액을 입금받아서 잔돈을
+바꿔주는 프로그램을 작성하고자한다.
+
+
+public class Hw9{
+    public static void main(String[] args){
+    System.out.print("금액을 입력하세요:");
+        Scanner sc = new Scanner(System.in);
+    int money = sc.nextInt();
+
+    Exchange ec = new Exchange();
+        ec.chage(money);
+    }
+}
+
+
+실행
+------------------------
+금액을 입력하세요: 2970
+500원 : 5
+100원 : 4
+50원 : 1
+
+
+
+
+
+
+
+
+===============================================================================================
+
+
+ + 객체지향 특징
+ 
+ 1. 캡슐화
+ 2. 상속
+ 3. 추상화
+ 4. 다형성(메소드 오버라이딩) : 동일한 조작방법으로 동작시키지만 , 대상에 따라 다른 실행을 하게 하는것.
+ 5. 
+ 
+ 
+ 
+
+

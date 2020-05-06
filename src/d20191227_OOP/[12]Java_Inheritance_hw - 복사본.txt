@@ -1,0 +1,122 @@
+1. 캡슐화란?  (인터넷검색해서 정의적인표현을 써보세요)
+
+
+
+2.  캡슐화된 클래스로 만들어보세요
+
+   public class HandPhone{
+    String productName;
+    String productType;
+    int price;
+    int phoneNumber;
+
+}
+
+
+
+
+3. Method Overloading과 Overriding의 의미와 특징?
+
+
+
+
+
+
+
+
+4. this, this(), super, super() ?
+
+
+
+
+
+
+
+5. 상속이란? (교재를 읽고 정의적인 표현을 찾아쓰세요)
+
+
+
+
+
+
+
+6. method를 호출하는 방법 3가지를 쓰고 예들어 설명하시오.
+
+
+
+
+
+
+
+
+
+
+
+7. 다음의 코드를 보고 Animal 클래스의 생성자를
+   작성하고 , setter , getter를 추가하시오
+  public class Hw7{
+    public static void main(String[] args){
+        Animal a1 = new Animal("원숭이",26);
+        a1.show();
+    }
+}
+
+class Animal{
+    String name;
+    int age;
+    public void show(){
+        System.out.println( name + "님은 " + age + "살 입니다");
+    }
+
+  }
+
+
+}
+
+8. 
+    public class Hw8{
+        public static void main(String[] args){
+            // 3 일때 3개 출력 , 5일때는 5개 출력
+            Lotto lt = new Lotto(3);
+            lt.select();
+            lt.print();
+        }   
+    }
+
+    출력 결과 ----------------------------------
+
+    [  2 ,   5,   3 ,   11 ,   35,    39 ]
+    [  7 ,   15,   23 ,   31 ,   40,    41 ]
+    [  5 ,   11,   12 ,   36 ,   37,    44 ]
+
+
+9. 사용자로부터 금액을 입금받아서 잔돈을
+바꿔주는 프로그램을 작성하고자한다.
+
+
+public class Hw9{
+    public static void main(String[] args){
+    System.out.print("금액을 입력하세요:");
+        Scanner sc = new Scanner(System.in);
+    int money = sc.nextInt();
+
+    Exchange ec = new Exchange();
+        ec.chage(money);
+    }
+}
+
+
+실행
+------------------------
+금액을 입력하세요: 2970
+500원 : 5
+100원 : 4
+50원 : 1
+10원 : 2
+
+
+
+
+10.  CellPhone, SmartPhone 2개의 클래스를 작성하고
+두 클래스의 공통요소를 모아 Phone이라는 상위클래스를 작성하시오.
+
